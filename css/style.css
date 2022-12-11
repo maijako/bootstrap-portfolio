@@ -1,7 +1,19 @@
-/* Text */
-h1, h2, h3 , h4, h5, h6 {
-    font-family: 'Anton', sans-serif;
+/*  1. Variables
+    2. General styling
+    3. Navbar
+    4. Hero banner
+    5. About me
+    6. Portfolio section
+    7. Footer */
+
+/* Variables */
+
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    height: 100%;
   }
-  p {
-    font-family: 'Jura', sans-serif;
-  }
+  
