@@ -24,10 +24,17 @@ body {
     line-height: 1.5;
     height: 100%;
   }
+
+h1 {
+    color: var(--greyhound);
+    background-color: rgba(247, 229, 190, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+
+}
   
 /* Navbar */
 .navbar {
-   
     background-color: rgba(247, 229, 190, 0.5) !important;
 }
 
@@ -40,6 +47,17 @@ body {
 /*hero*/
 
 .jumbotron {
-    background: url(../images/antelope-canyon.jpg);
+    background-image: url(../images/antelope-canyon.jpg);
     background-size: cover;
-}
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+  }
+
+  .jumboCopy {
+    justify-content: center;
+  }
+
+
+
