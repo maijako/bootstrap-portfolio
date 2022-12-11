@@ -26,3 +26,15 @@ body {
   }
   
 /* Navbar */
+.navbar {
+   
+    background-color: white;
+    opacity: 0.7;
+}
+
+/*hero*/
+
+.jumbotron {
+    background: url(../images/antelope-canyon.jpg);
+    background-size: cover;
+}
