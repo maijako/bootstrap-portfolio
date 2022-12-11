@@ -27,9 +27,13 @@ body {
   
 /* Navbar */
 .navbar {
-   
-    background-color: white;
-    opacity: 0.7;
+    background-color: rgba(247, 229, 190, 0.5) !important;
+}
+
+#profilepic {
+    border: solid;
+    border-color: var(--sunny);
+    border-radius: 50%;
 }
 
 /*hero*/
