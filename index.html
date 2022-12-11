@@ -15,7 +15,7 @@
   
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="https://linkedin.com/in/maijakozlova" target="blank">
         <img src="./images/profile-png.png" width="30" height="30" alt="my profile pic" id="profilepic">
       </a>
@@ -31,10 +31,10 @@
             <a class="nav-link" href="#aboutme">About Me<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">My Work</a>
+            <a class="nav-link" href="#mywork">My Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
+            <a class="nav-link" href="#contactme" tabindex="-1" aria-disabled="true">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -49,13 +49,13 @@
     </div>
 
     <!-- About me section -->  
- <section class="container content">
+ <section class="container" id="aboutme">
   <h2 class="sectionHeading">About Me</h2>
 
-  <div class="row aboutme">
-    <div class="sideAccent">
-    </div>
-    <div class="col-4 imageContainer">
+  <div class="row">
+    <!-- <div class="sideAccent">
+    </div> -->
+    <div class="col-4 imageContainer ">
       <img src="images/profile-png.png" width="150" height="150" alt="my profile pic" id="profilepic">
     </div>
     <div class="col-8">
@@ -70,7 +70,7 @@
 
 
     <!-- Work section -->
-    <section class="container">
+    <section class="container" id="mywork">
     <div class="card mb-3">
         <img src="./images/adventures.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -90,7 +90,7 @@
     </section>
 
     <!-- Footer Contact -->
-    <footer>
+    <footer id="contactme">
       <nav class="navbar navbar-dark bottom bg-primary">
         <a class="navbar-brand" href="#!">Contact Me</a>
       </nav>      
