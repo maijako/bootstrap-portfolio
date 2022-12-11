@@ -8,6 +8,14 @@
 
 /* Variables */
 
+:root {
+    --greyhound: #2e1902;
+    --crystal:  #f5e7bb;
+    --light: rgb(231, 143, 28);
+    --sunny: rgb(247, 236, 86);
+  }
+  
+
 /* General styling */
 body {
     margin: 0;
@@ -17,3 +25,4 @@ body {
     height: 100%;
   }
   
+/* Navbar */
