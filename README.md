@@ -5,7 +5,7 @@
 
 This is a code for my [Portfolio Website](https://maijako.github.io/bootstrap-portfolio) to showcase my skills and projects as a web developer.
 
-It was built to fit wider and smaller screens by implementing responsive design elements, such as Bootstrap 4.3 components and CSS flexbox.
+It was built to fit wider and smaller screens by implementing responsive design elements, such as Bootstrap 4.3 components, media query and CSS flexbox.
 
 Allowing the application to render as follows on wider screens:
 ![Wide screen](...)
