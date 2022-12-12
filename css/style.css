@@ -73,6 +73,10 @@ h1 {
     justify-content: center;
 }
 
+.buttoncontainer {
+  display: flex;
+}
+
 .btn-primary {
   background-color: var(--greyhound);
   border-color: var(--sunny);
@@ -91,3 +95,12 @@ h1 {
 
 /* footer */
 
+/* media query for small screen */
+
+@media only screen and (max-width: 600px) {
+.buttoncontainer {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+}
