@@ -73,6 +73,16 @@ h1 {
     justify-content: center;
 }
 
+.btn-primary {
+  background-color: var(--greyhound);
+  border-color: var(--sunny);
+}
+
+.btn-primary:hover {
+  background-color: var(--sunny);
+  border-color: var(--crystal);
+}
+
 /* work section */
 
 /* .minecraft h5, p, {
