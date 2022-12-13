@@ -87,13 +87,8 @@ h1 {
   border-color: var(--crystal);
 }
 
-/* work section */
 
-/* .minecraft h5, p, {
- text-decoration: none;
-} */
 
-/* footer */
 
 /* media query for small screen */
 @media only screen and (max-width: 600px) {
